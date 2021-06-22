@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+h4{
+    font-size:2em;
+}
+
+#banner{
+    margin-right:0;
+    background:url("img/4.jpg")rgba(0, 0, 0, 0.7);
+    background-blend-mode:darken;
+    background-position:center;
+    color: white;
+    height:800px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: changebg 20s infinite;
+    background-attachment: fixed;
+}
+@keyframes changebg{
+    0%{background-image: url(\img/4.jpg);}
+    25%{background-image: url(\img/16.jpg);}
+    50%{background-image: url(\img/17.jpg);}
+    75%{background-image: url(\img/18.jpg);}
+}
+#vcard{
+    background-color:#FF5C5C;
+    border-radius: 20px;
+}
+#flex{
+    background-color: #5647B2;
+    border-radius: 20px;
+}
+#icard{
+    background-color: #522459;
+    border-radius: 20px;
+    color:white;
+}
+#aboutus{
+    background-color:rgba(171, 183, 183, 1);
+}
